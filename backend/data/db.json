@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Bangaru Hema",
+      "email": "renter@househunt.com",
+      "password": "$2a$10$Kpx1A6qO9yYp77j3Fq8TKeaA7U1F1p9F4/z19N6.V1h1h1h1h1h1h",
+      "role": "renter",
+      "createdAt": "2026-07-15T12:00:00.000Z"
+    },
+    {
+      "id": "u-2",
+      "name": "Charan Vengaladasu",
+      "email": "landlord@househunt.com",
+      "password": "$2a$10$Kpx1A6qO9yYp77j3Fq8TKeaA7U1F1p9F4/z19N6.V1h1h1h1h1h1h",
+      "role": "landlord",
+      "createdAt": "2026-07-15T12:00:00.000Z"
+    },
+    {
+      "id": "u-3",
+      "name": "Tummuri Uma Bhargavi",
+      "email": "agent@househunt.com",
+      "password": "$2a$10$Kpx1A6qO9yYp77j3Fq8TKeaA7U1F1p9F4/z19N6.V1h1h1h1h1h1h",
+      "role": "agent",
+      "createdAt": "2026-07-15T12:00:00.000Z"
+    },
+    {
+      "id": "u-4",
+      "name": "Gedala Chaitanya",
+      "email": "admin@househunt.com",
+      "password": "$2a$10$Kpx1A6qO9yYp77j3Fq8TKeaA7U1F1p9F4/z19N6.V1h1h1h1h1h1h",
+      "role": "admin",
+      "createdAt": "2026-07-15T12:00:00.000Z"
+    }
+  ],
+  "properties": [
+    {
+      "id": "p-1",
+      "title": "Luxury Glass Penthouse",
+      "description": "Stunning 3-bedroom penthouse with floor-to-ceiling glass walls offering panoramic skyline views, custom Italian marble kitchen, private elevator access, and a wraparound terrace.",
+      "price": 3500,
+      "location": "Downtown Metro",
+      "address": "777 Skyline Boulevard, Penthouse 4B, Downtown",
+      "type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area": 2100,
+      "amenities": [
+        "Gym",
+        "Pool",
+        "Parking",
+        "Pets Allowed",
+        "Elevator",
+        "Concierge"
+      ],
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80",
+      "virtualTourUrl": "https://my.matterport.com/show/?m=mocktour1",
+      "ownerId": "u-2",
+      "agentId": "u-3",
+      "status": "available",
+      "views": 249,
+      "inquiries": 12,
+      "createdAt": "2026-07-10T10:00:00.000Z",
+      "updatedAt": "2026-07-15T13:59:42.490Z"
+    },
+    {
+      "id": "p-2",
+      "title": "Modern Minimalist Villa",
+      "description": "Architectural masterpiece featuring clean lines, smart-home automation, zero-edge heated infinity pool, private landscaped garden, and multi-car underground parking.",
+      "price": 4800,
+      "location": "Beverly Suburbs",
+      "address": "12 Ocean Breeze Lane, Beverly Suburbs",
+      "type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4.5,
+      "area": 3800,
+      "amenities": [
+        "Pool",
+        "Garden",
+        "Parking",
+        "Security",
+        "Smart Home",
+        "Fireplace"
+      ],
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=80",
+      "virtualTourUrl": "https://my.matterport.com/show/?m=mocktour2",
+      "ownerId": "u-2",
+      "agentId": "u-3",
+      "status": "available",
+      "views": 189,
+      "inquiries": 8,
+      "createdAt": "2026-07-12T14:30:00.000Z"
+    },
+    {
+      "id": "p-3",
+      "title": "Cozy Urban Studio",
+      "description": "Efficient and beautifully furnished studio apartment in the heart of the tech district. Features space-saving smart furniture, high-speed fiber internet, and access to a community rooftop deck.",
+      "price": 1600,
+      "location": "Silicon Valley East",
+      "address": "104 Innovation Way, Apt 302, Tech District",
+      "type": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area": 550,
+      "amenities": [
+        "Gym",
+        "High-speed Wifi",
+        "Rooftop Access",
+        "Laundry"
+      ],
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
+      "virtualTourUrl": "https://my.matterport.com/show/?m=mocktour3",
+      "ownerId": "u-2",
+      "agentId": "u-3",
+      "status": "available",
+      "views": 314,
+      "inquiries": 19,
+      "createdAt": "2026-07-14T08:15:00.000Z",
+      "updatedAt": "2026-07-15T14:00:36.332Z"
+    },
+    {
+      "id": "p-4",
+      "title": "Charming Suburban Cottage",
+      "description": "Lovely craftsman cottage surrounded by mature oaks. Enjoy a large screened porch, updated country kitchen with gas stove, cozy stone fireplace, and fully fenced backyard perfect for pets.",
+      "price": 2200,
+      "location": "Green Hills",
+      "address": "405 Maplewood Court, Green Hills",
+      "type": "House",
+      "bedrooms": 2,
+      "bathrooms": 1.5,
+      "area": 1250,
+      "amenities": [
+        "Garden",
+        "Fireplace",
+        "Pets Allowed",
+        "Parking",
+        "Laundry"
+      ],
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=800&q=80",
+      "virtualTourUrl": "",
+      "ownerId": "u-2",
+      "agentId": "",
+      "status": "available",
+      "views": 98,
+      "inquiries": 3,
+      "createdAt": "2026-07-15T09:00:00.000Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b-1",
+      "propertyId": "p-1",
+      "userId": "u-1",
+      "tourType": "virtual",
+      "date": "2026-07-20",
+      "time": "14:00",
+      "status": "approved",
+      "createdAt": "2026-07-15T10:00:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-1",
+      "senderId": "u-1",
+      "receiverId": "u-3",
+      "content": "Hello, I am interested in the Luxury Glass Penthouse. Is it available for a viewing this Saturday?",
+      "timestamp": "2026-07-15T11:00:00.000Z"
+    },
+    {
+      "id": "m-2",
+      "senderId": "u-3",
+      "receiverId": "u-1",
+      "content": "Hi Hema! Yes, it is available. I have approved your virtual tour booking request for July 20th. Let me know if you would prefer an in-person tour first.",
+      "timestamp": "2026-07-15T11:05:00.000Z"
+    }
+  ],
+  "leases": [
+    {
+      "id": "l-1",
+      "propertyId": "p-1",
+      "renterId": "u-1",
+      "landlordId": "u-2",
+      "agentId": "u-3",
+      "proposedRent": 3400,
+      "startDate": "2026-08-01",
+      "endDate": "2027-07-31",
+      "status": "negotiating",
+      "offers": [
+        {
+          "senderId": "u-1",
+          "rent": 3300,
+          "notes": "Hoping to sign a 12-month lease if we can adjust the rent slightly.",
+          "timestamp": "2026-07-15T11:15:00.000Z"
+        },
+        {
+          "senderId": "u-2",
+          "rent": 3400,
+          "notes": "I can do 3400 if you sign by this weekend.",
+          "timestamp": "2026-07-15T11:45:00.000Z"
+        }
+      ],
+      "renterSignature": "",
+      "landlordSignature": "",
+      "signedAt": "",
+      "createdAt": "2026-07-15T11:15:00.000Z"
+    }
+  ]
+}
